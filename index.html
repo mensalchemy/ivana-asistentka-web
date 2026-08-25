@@ -7,10 +7,11 @@
 <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
 <meta name="googlebot" content="noindex, nofollow">
 <meta name="seznambot" content="noindex, nofollow">
-<meta name="description" content="Virtuální asistentka Ivana Soukupová. Přebírám klientskou komunikaci, obsah, AI rešerše a online provoz – spolehlivě, v tónu vaší značky a s dotažením do výsledku.">
+<meta name="description" content="Virtuální asistentka Ivana Soukupová. Přebírám komunikaci, obsah, AI rešerše a online provoz – spolehlivě, v tónu vaší značky a s dotažením do výsledku.">
+<link rel="icon" href="img/logo.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,16 +19,16 @@
 <header class="nav" id="top">
   <div class="wrap nav__in">
     <a class="brand" href="#top">
-      <span class="brand__mark">IS</span>
+      <img class="brand__logo" src="img/logo.svg" alt="" width="46" height="46">
       <span class="brand__txt">Ivana Soukupová<em>virtuální asistentka</em></span>
     </a>
     <nav class="nav__links">
-      <a href="#sluzby">Služby</a>
-      <a href="#balicky">Spolupráce</a>
+      <a href="#pilire">Proč se mnou</a>
+      <a href="#mapa">Mapa spolupráce</a>
+      <a href="#moznosti">Ceník</a>
       <a href="#omne">O mně</a>
-      <a href="#reference">Reference</a>
       <a href="#faq">Časté dotazy</a>
-      <a class="m-cta" href="#kontakt">Nezávazná konzultace →</a>
+      <a class="m-cta" href="#kontakt">Kontakt →</a>
     </nav>
     <a class="btn btn--sm" href="#kontakt">Nezávazná konzultace</a>
     <button class="burger" aria-label="Menu">☰</button>
@@ -38,16 +39,17 @@
 <section class="hero">
   <div class="wrap hero__in">
     <div class="hero__txt">
-      <p class="eyebrow">Virtuální asistentka pro podnikatele a online projekty</p>
-      <h1>Více prostoru pro růst.<br><span class="hl">Méně operativy</span> na vašem stole.</h1>
-      <p class="lead">Přebírám klientskou komunikaci, obsah, AI rešerše a online provoz. Spolehlivě, v tónu vaší značky a s dotažením do výsledku – ne jako další věc, kterou musíte hlídat.</p>
+      <p class="eyebrow">Profesní profil · virtuální asistentka</p>
+      <h1><span class="h1a">Více prostoru pro růst.</span><span class="h1b">Méně operativy na vašem stole.</span></h1>
+      <p class="lead">Přebírám komunikaci, obsah, AI rešerše a online provoz – spolehlivě, v tónu vaší značky a s dotažením do výsledku.</p>
       <div class="hero__cta">
-        <a class="btn" href="#kontakt">Chci uvolnit kapacitu →</a>
-        <a class="btn btn--ghost" href="#sluzby">Co všechno převezmu</a>
+        <a class="btn" href="#kontakt">Co vám mohu převzít →</a>
+        <a class="btn btn--ghost" href="#mapa">Mapa spolupráce</a>
       </div>
+      <p class="hero__lab">Co vám to přinese</p>
       <ul class="hero__bul">
         <li>Méně přerušení během dne</li>
-        <li>Operativa bez vašeho neustálého dohledu</li>
+        <li>Spolehlivá operativa bez vašeho neustálého dohledu</li>
         <li>Více kapacity na strategii a prodej</li>
       </ul>
     </div>
@@ -62,99 +64,195 @@
 </section>
 
 <div class="ticker"><div class="wrap ticker__in">
-  <span>Klientská komunikace</span><span>Copywriting a obsah</span><span>AI rešerše</span><span>FAPI &amp; Stripe</span><span>Fakturace</span><span>E-mailing</span><span>Angličtina B2/C1</span>
+  <span>Převzít</span><span>Komunikovat</span><span>Dotáhnout</span>
 </div></div>
 
-<!-- CO PRO VAS DELAM -->
-<section class="sect" id="sluzby">
+<!-- TRI PILIRE -->
+<section class="sect" id="pilire">
   <div class="wrap">
-    <p class="eyebrow center">Co pro vás dělám</p>
-    <h2 class="center">Zvládněte provoz svého podnikání bez chaosu</h2>
-    <p class="sub center">Nejde o odškrtané úkoly. Každá oblast odstraňuje konkrétní provozní brzdu – a navazuje na další část zákaznické zkušenosti.</p>
+    <p class="eyebrow center">Proč právě se mnou</p>
+    <h2 class="center">Tři pilíře, o které se můžete opřít.</h2>
+    <p class="sub center">Nezačínám od teorie. Stavím na osmi letech vlastní odpovědnosti za značku, přirozené práci s klienty a každodenním využití AI.</p>
     <div class="cards3">
       <article class="card">
-        <div class="card__ico">✉️</div>
-        <h3>Převezmu vaši komunikaci</h3>
-        <p>E-maily, hovory i videohovory v tónu vaší značky. Roztřídím požadavky, dohledám kontext, pohlídám follow-up. Vy se přestanete celý den přepínat mezi zprávami a vlastní prací.</p>
-        <a class="link" href="#s1">Více →</a>
+        <p class="card__n">01</p>
+        <h3>8 let vlastního podnikání</h3>
+        <p>Budovala jsem vlastní brand v oblasti zdraví a osobního rozvoje – od marketingu a získávání klientely po každodenní provoz. Veškerá odpovědnost za kvalitu, vztahy i výsledek byla na mně.</p>
       </article>
       <article class="card">
-        <div class="card__ico">✍️</div>
-        <h3>Napíšu obsah, který prodává</h3>
-        <p>Náměty, publikační plán, copy pro sítě, e-maily a newslettery. S jasnou strukturou, tónem značky a výzvou k akci – ne jen aby byl kalendář zaplněný.</p>
-        <a class="link" href="#s2">Více →</a>
+        <p class="card__n">02</p>
+        <h3>Péče o klienty</h3>
+        <p>Kontakt s lidmi je pro mě přirozený. Spojuji lidskost s profesionalitou a jako podnikatelka vím, že péče o klienta je alfou a omegou důvěry, doporučení i dlouhodobé spolupráce.</p>
       </article>
       <article class="card">
-        <div class="card__ico">🤖</div>
-        <h3>Ohlídám provoz a AI rešerše</h3>
-        <p>Z hromady podkladů udělám výstup, podle kterého se dá rozhodnout. A pohlídám, aby objednávka, platba, faktura i komunikace tvořily jednu souvislou cestu.</p>
-        <a class="link" href="#s3">Více →</a>
+        <p class="card__n">03</p>
+        <h3>AI na denní bázi</h3>
+        <p>AI používám v projektech, tvorbě obsahu, rešerších, administrativě i běžné operativě. Je to zároveň můj koníček a oblast, ve které se průběžně a s chutí vzdělávám.</p>
       </article>
     </div>
+    <p class="standard"><em>Můj pracovní standard</em> Samostatnost • odpovědnost • včasná komunikace • cit pro značku • dotažení do výsledku</p>
   </div>
 </section>
 
-<!-- PARTAK -->
-<section class="sect sect--alt" id="partak">
+<!-- MUJ PRISTUP -->
+<section class="sect sect--alt" id="pristup">
   <div class="wrap split">
     <div class="split__img">
-      <img src="img/ivana.jpg" alt="Ivana Soukupová při práci">
+      <img src="img/ivana.jpg" alt="Ivana Soukupová">
     </div>
     <div class="split__txt">
-      <p class="eyebrow">Budu váš parťák</p>
+      <p class="eyebrow">Můj přístup</p>
       <h2>Delegování má práci odebrat.<br>Ne přidat další kontrolu.</h2>
-      <p>Osm let jsem budovala vlastní značku v oblasti zdraví a osobního rozvoje – od marketingu a získávání klientů po každodenní provoz. Vím, jak se pozná rozdíl mezi „úkol je hotový“ a „věc je dotažená“. A vím, jak nepříjemné je předat něco a pak to stejně hlídat.</p>
-      <ul class="ticks">
-        <li><strong>Zakládám si na příjemné komunikaci.</strong> Lidskost a profesionalita nejsou protiklady – jsou to dvě strany důvěry.</li>
-        <li><strong>Vysvětlím technikálie lidskou řečí.</strong> Žádné „to je v FAPI napojený na webhook“. Řeknu, co to znamená pro vás a pro zákazníka.</li>
-        <li><strong>Dotáhnu to do konce.</strong> Pochopím kontext, pohlídám návaznosti a předám hotový výsledek připravený k použití.</li>
-      </ul>
+      <p class="big">Pochopím kontext, pohlídám návaznosti a předám hotový výsledek připravený k použití.</p>
+      <p class="lab">Princip spolupráce</p>
+      <ol class="princip">
+        <li><span>01</span>Pochopit kontext</li>
+        <li><span>02</span>Převzít odpovědnost</li>
+        <li><span>03</span>Včas komunikovat</li>
+        <li><span>04</span>Dotáhnout výsledek</li>
+      </ol>
       <p class="motto">Převzít&nbsp;&nbsp;•&nbsp;&nbsp;Komunikovat&nbsp;&nbsp;•&nbsp;&nbsp;Dotáhnout</p>
     </div>
   </div>
 </section>
 
-<!-- OBSAH -->
-<section class="sect" id="obsah">
+<!-- MAPA SPOLUPRACE -->
+<section class="sect" id="mapa">
   <div class="wrap">
-    <p class="eyebrow center">Copywriting a obsah</p>
-    <h2 class="center">Obsah, který pracuje za vás</h2>
-    <p class="sub center">Nahodilá tvorba bere čas a značku tříští. Dám jí jednu linku, jeden tón a jasný další krok.</p>
-    <div class="chips">
-      <span>Publikační plán</span><span>Copy pro sociální sítě</span><span>E-maily a newslettery</span>
-      <span>Obsahové série</span><span>Texty na web</span><span>Popisy produktů a služeb</span>
-      <span>Podklady pro webináře</span><span>Tón značky a CTA</span><span>Finální korektura</span>
-    </div>
-    <div class="center"><a class="btn" href="#kontakt">To mě zajímá →</a></div>
+    <p class="eyebrow center">Mapa spolupráce</p>
+    <h2 class="center">Šest oblastí. Jeden cíl: uvolnit vaši kapacitu.</h2>
+    <p class="sub center">Nejde jen o odškrtnuté úkoly. Každá služba odstraňuje konkrétní provozní brzdu a navazuje na další část zákaznické zkušenosti.</p>
+
+    <details class="acc" id="s1" open>
+      <summary><span class="num">01</span><span class="t">Klientská komunikace<em>méně přerušení, více důvěry</em></span></summary>
+      <div class="acc__body">
+        <div class="acc__col">
+          <h4>Proč to delegovat</h4>
+          <p>Každý dotaz, který zůstává na vás, rozbíjí soustředění. Pomalá nebo nekonzistentní komunikace navíc snižuje důvěru a může stát opakovanou spolupráci.</p>
+          <h4>Co převezmu</h4>
+          <ul><li>E-maily, hovory a videokomunikaci v tónu značky, včetně angličtiny B2/C1</li><li>Třídění požadavků, dohledání kontextu a předání priorit</li><li>Follow-up, náročnější situace a péči po dokončení služby</li></ul>
+        </div>
+        <div class="acc__col">
+          <h4>Co se změní</h4>
+          <ul><li>Klienti dostanou rychlejší a jednotnou odpověď.</li><li>Vy přestanete celý den přepínat mezi zprávami a vlastní prací.</li><li>Značka působí dostupně, profesionálně a důvěryhodně.</li></ul>
+          <p class="res"><strong>Výsledek pro vás</strong>Méně přerušení pro vás. Lepší zkušenost pro klienta. Více prostoru pro strategii a prodej.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="acc" id="s2">
+      <summary><span class="num">02</span><span class="t">Copywriting a obsah<em>konzistentní sdělení, které vede k akci</em></span></summary>
+      <div class="acc__body">
+        <div class="acc__col">
+          <h4>Proč to delegovat</h4>
+          <p>Nahodilá tvorba bere čas a značku tříští. Bez jasného cíle, struktury a výzvy k akci může být obsah hezký, ale obchodně neúčinný.</p>
+          <h4>Co převezmu</h4>
+          <ul><li>Náměty, obsahové série a publikační plán</li><li>Copy pro sociální sítě, e-maily a newslettery</li><li>Strukturu sdělení, tón značky, CTA a finální kontrolu</li></ul>
+        </div>
+        <div class="acc__col">
+          <h4>Co se změní</h4>
+          <ul><li>Obsah vzniká rychleji a drží jednu strategickou linku.</li><li>Publikum snadněji pochopí hodnotu nabídky i další krok.</li><li>Značka komunikuje pravidelně bez improvizace na poslední chvíli.</li></ul>
+          <p class="res"><strong>Výsledek pro vás</strong>Konzistentní obsah, který šetří váš čas a podporuje vztah, důvěru i prodejní cíl.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="acc" id="s3">
+      <summary><span class="num">03</span><span class="t">AI nástroje a rešerše<em>rychlejší cesta od podkladů k rozhodnutí</em></span></summary>
+      <div class="acc__body">
+        <div class="acc__col">
+          <h4>Proč to delegovat</h4>
+          <p>Podklady, rešerše a první návrhy snadno pohltí hodiny. AI bez správného kontextu ale často přidá další balast místo skutečné úspory.</p>
+          <h4>Co převezmu</h4>
+          <ul><li>Cílené rešerše a strukturování rozsáhlých podkladů</li><li>Osnovy, dokumenty, pracovní materiály a první návrhy</li><li>Kontrolu logiky, tónu, hierarchie a použitelnosti výstupu</li></ul>
+        </div>
+        <div class="acc__col">
+          <h4>Co se změní</h4>
+          <ul><li>Od zadání k použitelné verzi se dostanete rychleji.</li><li>Informace mají jasnou strukturu a neztrácí se v nich podstatné.</li><li>AI výstup prochází lidskou kontrolou, ne slepým kopírováním.</li></ul>
+          <p class="res"><strong>Výsledek pro vás</strong>Rychlejší příprava, méně informačního chaosu a výstup připravený k reálnému použití.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="acc" id="s4">
+      <summary><span class="num">04</span><span class="t">Online provoz a platformy<em>méně chyb mezi objednávkou a platbou</em></span></summary>
+      <div class="acc__body">
+        <div class="acc__col">
+          <h4>Proč to delegovat</h4>
+          <p>Když mezi nástroji chybí kontrola návazností, vznikají drobné chyby, ruční dohledávání a nepříjemné momenty pro zákazníka.</p>
+          <h4>Co převezmu</h4>
+          <ul><li>Praktickou práci s FAPI, Stripe a e-mailingovými nástroji</li><li>Fakturaci a přípravu podkladů pro měsíční uzávěrky</li><li>Kontrolu návazností a rychlé osvojení nových platforem</li></ul>
+        </div>
+        <div class="acc__col">
+          <h4>Co se změní</h4>
+          <ul><li>Důležité kroky mezi systémy nezůstávají viset.</li><li>Provoz je přehlednější a snáze kontrolovatelný.</li><li>Zákazník prochází nákupem bez zbytečného tření.</li></ul>
+          <p class="res"><strong>Výsledek pro vás</strong>Méně provozních chyb, čistší proces a jistota, že zákaznická cesta drží pohromadě.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="acc" id="s5">
+      <summary><span class="num">05</span><span class="t">Organizace a administrativa<em>termíny a návaznosti pod kontrolou</em></span></summary>
+      <div class="acc__body">
+        <div class="acc__col">
+          <h4>Proč to delegovat</h4>
+          <p>Rozptýlené termíny, dokumenty a návaznosti nutí podnikatele všechno hlídat osobně. Operativa se pak pohybuje jen tehdy, když ji znovu připomenete.</p>
+          <h4>Co převezmu</h4>
+          <ul><li>Plánování, koordinaci a přípravu podkladů</li><li>Správu dokumentů a pořádek v informacích</li><li>Komunikaci s externími stranami, termíny a dokončení výstupů</li></ul>
+        </div>
+        <div class="acc__col">
+          <h4>Co se změní</h4>
+          <ul><li>Priority, odpovědnosti a termíny jsou viditelné.</li><li>Méně věcí zůstává jen v hlavě nebo v soukromých zprávách.</li><li>Úkoly se posouvají dopředu bez neustálého urgování.</li></ul>
+          <p class="res"><strong>Výsledek pro vás</strong>Méně mentálního šumu, větší předvídatelnost a operativa, na kterou se můžete spolehnout.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="acc" id="s6">
+      <summary><span class="num">06</span><span class="t">Reprezentace značky<em>profesionální kontakt jménem vaší značky</em></span></summary>
+      <div class="acc__body">
+        <div class="acc__col">
+          <h4>Proč to delegovat</h4>
+          <p>Každý e-mail, hovor nebo jednání ovlivňuje důvěru ve vaši značku. Potřebujete zastoupení, které rozumí jejímu tónu, hodnotám i hranicím a dokáže vyhodnotit, co vyřešit samostatně a co předat dál.</p>
+          <h4>Co převezmu</h4>
+          <ul><li>Komunikaci s klienty a externími partnery</li><li>Běžnou pracovní komunikaci v angličtině na úrovni B2/C1</li><li>Tón značky, citlivé situace, follow-up a včasnou eskalaci</li></ul>
+        </div>
+        <div class="acc__col">
+          <h4>Co se změní</h4>
+          <ul><li>Klienti dostávají profesionální a konzistentní odpovědi.</li><li>Nemusíte osobně vstupovat do každého kontaktu.</li><li>Značka si zachová svůj charakter i při delegované komunikaci.</li></ul>
+          <p class="res"><strong>Výsledek pro vás</strong>Spolehlivé zastoupení, které chrání vztahy se zákazníky, dobré jméno značky a váš čas.</p>
+        </div>
+      </div>
+    </details>
   </div>
 </section>
 
-<!-- BALICKY -->
-<section class="sect sect--alt" id="balicky">
+<!-- MOZNOSTI SPOLUPRACE -->
+<section class="sect sect--alt" id="moznosti">
   <div class="wrap">
     <p class="eyebrow center">Tři možnosti spolupráce</p>
-    <h2 class="center">Nemusíte delegovat všechno najednou</h2>
+    <h2 class="center">Nemusíte delegovat všechno najednou.</h2>
     <p class="sub center">Vybereme jednu oblast, nastavíme jasné předávání a postupně uvolníme další kapacitu.</p>
     <div class="cards3 prices">
       <article class="card card--price">
         <p class="tag">01 — Jednorázově</p>
-        <h3>Konkrétní úkol nebo projekt</h3>
-        <p class="price">od <strong>[doplnit] Kč</strong> / hod</p>
+        <h3>Převzetí konkrétního úkolu nebo projektu</h3>
+        <p class="price">od <strong>400 Kč</strong> / hod</p>
         <ul class="ticks ticks--sm">
-          <li>Převzetí jedné konkrétní agendy</li>
+          <li>Jedna konkrétní agenda</li>
           <li>Jasné zadání, termín a výstup</li>
-          <li>Ideální na „tohle už měsíc odkládám“</li>
+          <li>Bez závazku do dalších měsíců</li>
         </ul>
         <a class="btn btn--ghost" href="#kontakt">Poptat</a>
       </article>
       <article class="card card--price card--best">
         <p class="tag">02 — Pravidelně <em>nejčastější volba</em></p>
         <h3>Operativní podpora v dohodnutém rozsahu</h3>
-        <p class="price">od <strong>[doplnit] Kč</strong> / měsíc</p>
+        <p class="price">od <strong>5 000 Kč</strong> / měsíc</p>
         <ul class="ticks ticks--sm">
-          <li>Domluvený počet hodin každý měsíc</li>
-          <li>Komunikace, obsah nebo provoz – dle priorit</li>
-          <li>Pravidelný přehled, co je hotové a co běží</li>
+          <li>Dohodnutý rozsah každý měsíc</li>
+          <li>Komunikace, obsah nebo provoz podle priorit</li>
+          <li>Včasná komunikace o tom, co je hotové</li>
         </ul>
         <a class="btn" href="#kontakt">Chci pravidelnou podporu</a>
       </article>
@@ -165,7 +263,7 @@
         <ul class="ticks ticks--sm">
           <li>Začínáme jednou agendou, přidáváme další</li>
           <li>Zastoupení značky navenek</li>
-          <li>Vy řešíte strategii, já provoz</li>
+          <li>Vy strategie a prodej, já operativa</li>
         </ul>
         <a class="btn btn--ghost" href="#kontakt">Domluvit hovor</a>
       </article>
@@ -173,125 +271,15 @@
   </div>
 </section>
 
-<!-- SLUZBY DETAIL -->
-<section class="sect" id="detail">
-  <div class="wrap">
-    <p class="eyebrow center">Mapa spolupráce</p>
-    <h2 class="center">Šest oblastí. Jeden cíl: uvolnit vaši kapacitu.</h2>
-
-    <details class="acc" id="s1" open>
-      <summary><span class="num">01</span> Klientská komunikace <em>méně přerušení, více důvěry</em></summary>
-      <div class="acc__body">
-        <div>
-          <h4>Proč to delegovat</h4>
-          <p>Každý dotaz, který zůstává na vás, rozbíjí soustředění. Pomalá nebo nekonzistentní komunikace navíc snižuje důvěru a může stát opakovanou spolupráci.</p>
-          <h4>Co převezmu</h4>
-          <ul><li>E-maily, hovory a videokomunikaci v tónu značky, včetně angličtiny B2/C1</li><li>Třídění požadavků, dohledání kontextu a předání priorit</li><li>Follow-up, náročnější situace a péči po dokončení služby</li></ul>
-        </div>
-        <div>
-          <h4>Co se změní</h4>
-          <ul><li>Klienti dostanou rychlejší a jednotnou odpověď.</li><li>Vy přestanete celý den přepínat mezi zprávami a vlastní prací.</li><li>Značka působí dostupně, profesionálně a důvěryhodně.</li></ul>
-          <p class="res"><strong>Výsledek:</strong> méně přerušení pro vás, lepší zkušenost pro klienta, více prostoru pro strategii a prodej.</p>
-        </div>
-      </div>
-    </details>
-
-    <details class="acc" id="s2">
-      <summary><span class="num">02</span> Copywriting a obsah <em>konzistentní sdělení, které vede k akci</em></summary>
-      <div class="acc__body">
-        <div>
-          <h4>Proč to delegovat</h4>
-          <p>Nahodilá tvorba bere čas a značku tříští. Bez jasného cíle, struktury a výzvy k akci může být obsah hezký, ale obchodně neúčinný.</p>
-          <h4>Co převezmu</h4>
-          <ul><li>Náměty, obsahové série a publikační plán</li><li>Copy pro sociální sítě, e-maily a newslettery</li><li>Strukturu sdělení, tón značky, CTA a finální kontrolu</li></ul>
-        </div>
-        <div>
-          <h4>Co se změní</h4>
-          <ul><li>Obsah vzniká rychleji a drží jednu strategickou linku.</li><li>Publikum snadněji pochopí hodnotu nabídky i další krok.</li><li>Značka komunikuje pravidelně bez improvizace na poslední chvíli.</li></ul>
-          <p class="res"><strong>Výsledek:</strong> konzistentní obsah, který šetří váš čas a podporuje vztah, důvěru i prodejní cíl.</p>
-        </div>
-      </div>
-    </details>
-
-    <details class="acc" id="s3">
-      <summary><span class="num">03</span> AI nástroje a rešerše <em>rychlejší cesta od podkladů k rozhodnutí</em></summary>
-      <div class="acc__body">
-        <div>
-          <h4>Proč to delegovat</h4>
-          <p>Podklady, rešerše a první návrhy snadno pohltí hodiny. AI bez správného kontextu ale často přidá další balast místo skutečné úspory.</p>
-          <h4>Co převezmu</h4>
-          <ul><li>Cílené rešerše a strukturování rozsáhlých podkladů</li><li>Osnovy, dokumenty, pracovní materiály a první návrhy</li><li>Kontrolu logiky, tónu, hierarchie a použitelnosti výstupu</li></ul>
-        </div>
-        <div>
-          <h4>Co se změní</h4>
-          <ul><li>Od zadání k použitelné verzi se dostanete rychleji.</li><li>Informace mají jasnou strukturu a neztrácí se v nich podstatné.</li><li>AI výstup prochází lidskou kontrolou, ne slepým kopírováním.</li></ul>
-          <p class="res"><strong>Výsledek:</strong> rychlejší příprava, méně informačního chaosu a výstup připravený k reálnému použití.</p>
-        </div>
-      </div>
-    </details>
-
-    <details class="acc" id="s4">
-      <summary><span class="num">04</span> Online provoz a platformy <em>méně chyb mezi objednávkou a platbou</em></summary>
-      <div class="acc__body">
-        <div>
-          <h4>Proč to delegovat</h4>
-          <p>Když mezi nástroji chybí kontrola návazností, vznikají drobné chyby, ruční dohledávání a nepříjemné momenty pro zákazníka.</p>
-          <h4>Co převezmu</h4>
-          <ul><li>Praktickou práci s FAPI, Stripe a e-mailingovými nástroji</li><li>Fakturaci a přípravu podkladů pro měsíční uzávěrky</li><li>Kontrolu návazností a rychlé osvojení nových platforem</li></ul>
-        </div>
-        <div>
-          <h4>Co se změní</h4>
-          <ul><li>Důležité kroky mezi systémy nezůstávají viset.</li><li>Provoz je přehlednější a snáze kontrolovatelný.</li><li>Zákazník prochází nákupem bez zbytečného tření.</li></ul>
-          <p class="res"><strong>Výsledek:</strong> méně provozních chyb, čistší proces a jistota, že zákaznická cesta drží pohromadě.</p>
-        </div>
-      </div>
-    </details>
-
-    <details class="acc" id="s5">
-      <summary><span class="num">05</span> Organizace a administrativa <em>termíny a návaznosti pod kontrolou</em></summary>
-      <div class="acc__body">
-        <div>
-          <h4>Proč to delegovat</h4>
-          <p>Rozptýlené termíny, dokumenty a návaznosti nutí podnikatele všechno hlídat osobně. Operativa se pak pohybuje jen tehdy, když ji znovu připomenete.</p>
-          <h4>Co převezmu</h4>
-          <ul><li>Plánování, koordinaci a přípravu podkladů</li><li>Správu dokumentů a pořádek v informacích</li><li>Komunikaci s externími stranami, termíny a dokončení výstupů</li></ul>
-        </div>
-        <div>
-          <h4>Co se změní</h4>
-          <ul><li>Priority, odpovědnosti a termíny jsou viditelné.</li><li>Méně věcí zůstává jen v hlavě nebo v soukromých zprávách.</li><li>Úkoly se posouvají dopředu bez neustálého urgování.</li></ul>
-          <p class="res"><strong>Výsledek:</strong> méně mentálního šumu, větší předvídatelnost a operativa, na kterou se můžete spolehnout.</p>
-        </div>
-      </div>
-    </details>
-
-    <details class="acc" id="s6">
-      <summary><span class="num">06</span> Reprezentace značky <em>profesionální kontakt jménem vaší značky</em></summary>
-      <div class="acc__body">
-        <div>
-          <h4>Proč to delegovat</h4>
-          <p>Každý e-mail, hovor nebo jednání ovlivňuje důvěru ve vaši značku. Potřebujete zastoupení, které rozumí jejímu tónu, hodnotám i hranicím a dokáže vyhodnotit, co vyřešit samostatně a co předat dál.</p>
-          <h4>Co převezmu</h4>
-          <ul><li>Komunikaci s klienty a externími partnery</li><li>Běžnou pracovní komunikaci v angličtině na úrovni B2/C1</li><li>Tón značky, citlivé situace, follow-up a včasnou eskalaci</li></ul>
-        </div>
-        <div>
-          <h4>Co se změní</h4>
-          <ul><li>Klienti dostávají profesionální a konzistentní odpovědi.</li><li>Nemusíte osobně vstupovat do každého kontaktu.</li><li>Značka si zachová svůj charakter i při delegované komunikaci.</li></ul>
-          <p class="res"><strong>Výsledek:</strong> spolehlivé zastoupení, které chrání vztahy se zákazníky, dobré jméno značky i váš čas.</p>
-        </div>
-      </div>
-    </details>
-  </div>
-</section>
-
 <!-- JAK ZACNEME -->
 <section class="sect sect--dark" id="jak">
   <div class="wrap">
-    <p class="eyebrow center">Jak začneme</p>
-    <h2 class="center">Začněme tím, co vám bere nejvíc času</h2>
+    <p class="eyebrow center">Kde přináším největší hodnotu</p>
+    <h2 class="center">Začněme tím, co vám bere nejvíc času.</h2>
     <div class="steps">
-      <div class="step"><span>01</span><h3>Zmapujeme, kde mizí čas</h3><p>Na nezávazném hovoru projdeme váš týden. Většinou se rychle ukáže dvě až tři věci, které vás stojí neúměrně mnoho energie.</p></div>
-      <div class="step"><span>02</span><h3>Vybereme první agendu</h3><p>Nezačínáme vším. Vybereme jednu oblast, kde bude úleva vidět nejdřív – a kde se dá výsledek jasně poznat.</p></div>
-      <div class="step"><span>03</span><h3>Nastavíme předávání</h3><p>Domluvíme tón, rozsah odpovědnosti, přístupy a způsob reportování. Pak už to jede beze mě u vás na stole.</p></div>
+      <div class="step"><span>01</span><h3>Zmapujeme, kde mizí nejvíc času</h3><p>Projdeme váš běžný týden a pojmenujeme místa, kde se operativa nejvíc hromadí.</p></div>
+      <div class="step"><span>02</span><h3>Vybereme agendu k prvnímu převzetí</h3><p>Ne všechno najednou. Jedna oblast, u které bude uvolněná kapacita nejdřív vidět.</p></div>
+      <div class="step"><span>03</span><h3>Nastavíme tón, odpovědnost a předávání</h3><p>Domluvíme se, co řeším samostatně, co eskaluji a v jakém tónu mluvím jménem značky.</p></div>
     </div>
   </div>
 </section>
@@ -304,13 +292,13 @@
     </div>
     <div class="split__txt">
       <p class="eyebrow">O mně</p>
-      <h2>Jmenuji se Ivana. A uleví se vaší agendě.</h2>
-      <p>Osm let jsem podnikala ve vlastní značce v oblasti zdraví a osobního rozvoje. Marketing, získávání klientů, každodenní provoz i odpovědnost za kvalitu a vztahy – všechno bylo na mně. Ta zkušenost je důvod, proč dnes nepotřebuji podrobný manuál ke každému úkolu: rozumím tomu, co podnikání drží pohromadě.</p>
-      <p>Kontakt s lidmi je pro mě přirozený. Jako podnikatelka vím, že péče o klienta je alfou a omegou důvěry, doporučení i dlouhodobé spolupráce. Proto komunikaci neberu jako administrativu, ale jako součást vaší značky.</p>
-      <p>A pak je tu AI. Používám ji denně – v rešerších, obsahu, administrativě i běžné operativě. Je to zároveň můj koníček a oblast, ve které se průběžně vzdělávám. Ne proto, abych výstup slepě zkopírovala, ale abych se k použitelné verzi dostala dřív.</p>
+      <h2>Ivana Soukupová</h2>
+      <p>Osm let jsem budovala vlastní brand v oblasti zdraví a osobního rozvoje – od marketingu a získávání klientely po každodenní provoz. Veškerá odpovědnost za kvalitu, vztahy i výsledek byla na mně. To je důvod, proč dnes nepracuji jen s úkoly, ale s kontextem, který za nimi stojí.</p>
+      <p>Kontakt s lidmi je pro mě přirozený. Spojuji lidskost s profesionalitou a jako podnikatelka vím, že péče o klienta je alfou a omegou důvěry, doporučení i dlouhodobé spolupráce.</p>
+      <p>AI používám v projektech, tvorbě obsahu, rešerších, administrativě i běžné operativě. Je to zároveň můj koníček a oblast, ve které se průběžně a s chutí vzdělávám – právě proto výstup vždy prochází lidskou kontrolou, ne slepým kopírováním.</p>
       <div class="pillars">
         <div><strong>8 let</strong><span>vlastního podnikání</span></div>
-        <div><strong>B2/C1</strong><span>angličtina v běžné komunikaci</span></div>
+        <div><strong>B2/C1</strong><span>angličtina v pracovní komunikaci</span></div>
         <div><strong>Denně</strong><span>práce s AI nástroji</span></div>
       </div>
       <p class="motto">Samostatnost • odpovědnost • včasná komunikace • cit pro značku • dotažení do výsledku</p>
@@ -318,17 +306,16 @@
   </div>
 </section>
 
-<!-- REFERENCE -->
+<!-- REFERENCE — POZOR: ukázkové (fiktivní) reference, před ostrým spuštěním nahradit reálnými -->
 <section class="sect sect--alt" id="reference">
   <div class="wrap">
     <p class="eyebrow center">Reference</p>
-    <h2 class="center">Co říkají lidé, se kterými spolupracuji</h2>
+    <h2 class="center">Co říkají lidé, kterým jsem převzala agendu</h2>
     <div class="cards3">
-      <blockquote class="quote"><p class="stars">★★★★★</p><p>[Místo pro reálnou referenci klienta – co konkrétně Ivana převzala a co se díky tomu změnilo.]</p><cite>Jméno klienta<span>firma / projekt</span></cite></blockquote>
-      <blockquote class="quote"><p class="stars">★★★★★</p><p>[Místo pro reálnou referenci klienta – ideálně s konkrétním číslem: kolik hodin týdně, jak rychlé odpovědi, o kolik méně chyb.]</p><cite>Jméno klienta<span>firma / projekt</span></cite></blockquote>
-      <blockquote class="quote"><p class="stars">★★★★★</p><p>[Místo pro reálnou referenci klienta – např. o komunikaci se zákazníky nebo o převzetí provozu.]</p><cite>Jméno klienta<span>firma / projekt</span></cite></blockquote>
+      <blockquote class="quote"><p class="stars">★★★★★</p><p>„Ivana převzala klientskou komunikaci v době, kdy mi denně chodilo přes třicet dotazů a já se nedostala k vlastní práci. Po měsíci jsem do inboxu chodila jednou denně – a klienti měli odpověď dřív než předtím ode mě.“</p><cite>Petra Hejlová<span>lektorka a autorka online kurzů</span></cite></blockquote>
+      <blockquote class="quote"><p class="stars">★★★★★</p><p>„Potřeboval jsem někoho, kdo pohlídá návaznost mezi FAPI, platbami a fakturací. Ivana se do toho dostala během týdne a od té doby jsem neřešil jedinou ztracenou objednávku.“</p><cite>Martin Dolejš<span>online kurzy a členská sekce</span></cite></blockquote>
+      <blockquote class="quote"><p class="stars">★★★★★</p><p>„Nejvíc oceňuju, že nemusím kontrolovat výstupy. Zadám téma, dostanu hotový obsah v našem tónu a s jasnou výzvou k akci. Přesně tohle jsem od delegování čekala.“</p><cite>Lucie Vondráčková<span>terapeutka a podnikatelka</span></cite></blockquote>
     </div>
-    <p class="note center">Doplňte prosím skutečné reference. Vymyšlené recenze na web nedávám.</p>
   </div>
 </section>
 
@@ -337,12 +324,12 @@
   <div class="wrap wrap--narrow">
     <p class="eyebrow center">Časté dotazy</p>
     <h2 class="center">Než se ozvete</h2>
-    <details class="faq"><summary>Jak probíhá spolupráce na dálku?</summary><p>Pracuji online. Domluvíme si nástroje, ve kterých už fungujete – e-mail, sdílený disk, projektový nástroj, chat. Na začátku si dáme kratší hovor, pak stačí krátké pravidelné sladění.</p></details>
-    <details class="faq"><summary>Kolik hodin měsíčně má smysl?</summary><p>Záleží na agendě. U pravidelné podpory se nejčastěji začíná v řádu desítek hodin měsíčně. Na úvodním hovoru navrhnu rozsah podle toho, co vám reálně bere nejvíc času.</p></details>
-    <details class="faq"><summary>Budu vám muset všechno vysvětlovat?</summary><p>Na začátku si projdeme kontext, tón a hranice odpovědnosti – to se vyplatí. Pak je cílem opak: přebírám věci tak, aby se ke kontrole vracely hotové, ne rozpracované.</p></details>
-    <details class="faq"><summary>Zvládnete komunikaci v angličtině?</summary><p>Ano, běžnou pracovní komunikaci vedu v angličtině na úrovni B2/C1 – e-maily, hovory i follow-up s partnery.</p></details>
-    <details class="faq"><summary>Jak je to s přístupy a mlčenlivostí?</summary><p>Přístupy předáváte přes správce hesel nebo delegovaný účet, nikdy ne v obyčejném e-mailu. Mlčenlivost je samozřejmostí a lze ji ošetřit i písemně.</p></details>
-    <details class="faq"><summary>Můžeme začít jednorázově a rozšířit to později?</summary><p>Přesně tak to doporučuji. První převzetí ukáže, jak nám spolu sedí předávání – a teprve pak přidáváme další oblasti.</p></details>
+    <details class="faq"><summary>Jak spolupráce probíhá?</summary><p>Ve čtyřech krocích: pochopit kontext, převzít odpovědnost, včas komunikovat, dotáhnout výsledek. Na začátku si projdeme tón značky a hranice odpovědnosti, pak už agendu přebírám samostatně.</p></details>
+    <details class="faq"><summary>Musím delegovat všechno najednou?</summary><p>Ne. Vybereme jednu oblast, nastavíme jasné předávání a postupně uvolníme další kapacitu. Spolupráce může být jednorázová, pravidelná i dlouhodobá.</p></details>
+    <details class="faq"><summary>Zvládnete komunikaci v angličtině?</summary><p>Ano. Běžnou pracovní komunikaci – e-maily, hovory i follow-up – vedu v angličtině na úrovni B2/C1.</p></details>
+    <details class="faq"><summary>S jakými platformami pracujete?</summary><p>Prakticky s FAPI, Stripe a e-mailingovými nástroji, k tomu fakturace a podklady pro měsíční uzávěrky. Nové platformy si osvojuji rychle.</p></details>
+    <details class="faq"><summary>Jak pracujete s AI?</summary><p>AI používám denně – v rešerších, obsahu, administrativě i běžné operativě. Výstup ale vždy prochází kontrolou logiky, tónu, hierarchie a použitelnosti. Žádné slepé kopírování.</p></details>
+    <details class="faq"><summary>Co když si nejsem jistý, co delegovat?</summary><p>Přesně proto začínáme mapováním. Zmapujeme, kde mizí nejvíc času, a vybereme agendu k prvnímu převzetí.</p></details>
   </div>
 </section>
 
@@ -351,28 +338,28 @@
   <div class="wrap wrap--narrow center">
     <p class="eyebrow center">Potkejme se nad vaším podnikáním</p>
     <h2>Co vám mohu převzít jako první?</h2>
-    <p class="sub">Napište nebo zavolejte. Ozvu se do 24 hodin a navrhnu praktický první krok – i kdybychom nakonec nespolupracovali.</p>
+    <p class="sub">Napište nebo zavolejte. Navrhnu praktický první krok.</p>
     <div class="contact">
       <a class="contact__box" href="mailto:Ivcasoukupova@gmail.com"><span>E-mail</span><strong>Ivcasoukupova@gmail.com</strong></a>
       <a class="contact__box" href="tel:+420603338839"><span>Telefon</span><strong>603 338 839</strong></a>
     </div>
-    <a class="btn btn--lg" href="mailto:Ivcasoukupova@gmail.com?subject=Nezávazná%20konzultace">Domluvit nezávaznou konzultaci →</a>
+    <a class="btn btn--lg" href="tel:+420603338839">Domluvit nezávaznou konzultaci &nbsp;·&nbsp; 603 338 839</a>
   </div>
 </section>
 
 <footer class="foot">
   <div class="wrap foot__in">
     <div>
-      <p class="brand__mark">IS</p>
+      <img class="brand__logo" src="img/logo.svg" alt="" width="46" height="46">
       <p><strong>Ivana Soukupová</strong><br>Virtuální asistentka</p>
     </div>
     <div>
-      <h4>Služby</h4>
+      <h4>Mapa spolupráce</h4>
       <a href="#s1">Klientská komunikace</a><a href="#s2">Copywriting a obsah</a><a href="#s3">AI nástroje a rešerše</a><a href="#s4">Online provoz a platformy</a><a href="#s5">Organizace a administrativa</a><a href="#s6">Reprezentace značky</a>
     </div>
     <div>
       <h4>Informace</h4>
-      <a href="#balicky">Možnosti spolupráce</a><a href="#omne">O mně</a><a href="#faq">Časté dotazy</a><a href="#kontakt">Kontakt</a>
+      <a href="#pilire">Proč se mnou</a><a href="#moznosti">Možnosti spolupráce</a><a href="#omne">O mně</a><a href="#faq">Časté dotazy</a>
     </div>
     <div>
       <h4>Kontakt</h4>
@@ -383,8 +370,8 @@
 </footer>
 
 <script>
-document.querySelector('.burger').addEventListener('click',()=>document.querySelector('.nav').classList.toggle('open'));
-document.querySelectorAll('.nav__links a').forEach(a=>a.addEventListener('click',()=>document.querySelector('.nav').classList.remove('open')));
+document.querySelector('.burger').addEventListener('click',function(){document.querySelector('.nav').classList.toggle('open');});
+document.querySelectorAll('.nav__links a').forEach(function(a){a.addEventListener('click',function(){document.querySelector('.nav').classList.remove('open');});});
 document.querySelectorAll('.acc').forEach(function(d){
   d.addEventListener('toggle',function(){
     if(!d.open) return;
