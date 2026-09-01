@@ -52,7 +52,7 @@ h1{font-size:clamp(2rem,5vw,3.5rem);line-height:1.06}
 .hero__sub{margin-top:26px;font-family:'Fraunces',serif;font-size:1.35rem;line-height:1.4;color:var(--ink)}
 .mathpill{display:inline-block;vertical-align:middle;background:var(--accent-soft);color:var(--accent);font-family:'Inter',sans-serif;font-size:.7rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;padding:6px 14px;border-radius:999px;margin-left:10px;transform:rotate(-2deg)}
 .hero__cta{display:flex;gap:16px;flex-wrap:wrap;margin-top:30px;align-items:center}
-.cta__more{font-size:.98rem;color:var(--ink-soft);max-width:260px;line-height:1.45}
+.cta__more{font-size:.98rem;color:var(--ink-soft);line-height:1.45;white-space:nowrap}
 .lead{font-size:.98rem;margin-top:26px;max-width:500px;opacity:.85}
 .hero__img{position:relative;display:flex;align-items:flex-end;justify-content:center}
 .hero__img:after{content:"";position:absolute;left:50%;bottom:10%;transform:translateX(-50%);width:96%;aspect-ratio:1/1;border-radius:50%;border:1px dashed rgba(169,104,63,.35)}
@@ -154,7 +154,7 @@ h1{font-size:clamp(2rem,5vw,3.5rem);line-height:1.06}
   .dt{display:none}
   .hub__center:before{animation:hubpulse 2.6s ease-in-out infinite}
   .hub__center:after{animation:hubpulse 2.6s ease-in-out 1.3s infinite}
-  .cta__more{max-width:none;text-align:center;width:100%}
+  .cta__more{text-align:center;width:100%;white-space:normal}
   .cta__dot{display:none}
   .cta__alt .cta__l{display:block;margin-top:6px}
   .sect{padding:72px 0}
