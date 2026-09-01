@@ -31,10 +31,10 @@
   <div class="wrap hero__in">
     <div class="hero__txt">
       <h1><span class="h1a">Čas je prý nejcennější komodita.</span><span class="h1b">Tak proč ten svůj prodáváte pod cenou?</span></h1>
-      <p class="hero__sub">Denně trávíte hodiny prací za pár stovek. <br>A platíte je časem za tisíce. <span class="mathpill">jednoduchá matika</span></p>
+      <p class="hero__sub">Denně trávíte hodiny prací za pár stovek. <br class="dt">A platíte je časem za tisíce. <span class="mathpill">jednoduchá matika</span></p>
       <div class="hero__cta">
-        <a class="btn btn--lg" href="https://calendly.com/tomas-wasniowski/30min" target="_blank" rel="noopener">Rezervovat si se mnou hovor →</a>
-        <a class="btn btn--ghost" href="#kroky">Jak to probíhá</a>
+        <a class="btn btn--lg" href="https://calendly.com/tomas-wasniowski/30min" target="_blank" rel="noopener">Rezervujte si se mnou hovor →</a>
+        <span class="cta__more">…a zjistěte, jak vám mohu ušetřit váš čas.</span>
       </div>
       <p class="lead">Každá hodina strávená e-maily, fakturami a domlouváním schůzek je hodina, kdy neděláte to, co vám reálně vydělává.</p>
     </div>
@@ -52,7 +52,7 @@
     <h2>Delegovat jste chtěli už loni.</h2>
     <p class="quoteline">Víte, že vás operativa brzdí. Jen jste zatím neměli čas, prostor a chuť s tím něco udělat.</p>
     <p class="fixline">Pojďme to napravit.</p>
-    <a class="btn btn--lg" href="https://calendly.com/tomas-wasniowski/30min" target="_blank" rel="noopener">Rezervovat si se mnou hovor →</a>
+    <a class="btn btn--lg" href="https://calendly.com/tomas-wasniowski/30min" target="_blank" rel="noopener">Rezervujte si se mnou hovor →</a>
     <p class="ctanote">Nezávazně. Když si nesedneme, odnesete si aspoň jasno v tom, co delegovat jako první.</p>
   </div>
 </section>
@@ -60,14 +60,18 @@
 <!-- IVANA -->
 <section class="sect" id="ivana">
   <div class="wrap split split--ivana">
-    <!-- TODO: az dorazi 3 fotky z podnikani, nahradit za kolaz -->
-    <div class="split__img">
-      <img src="img/ivana.jpg" alt="Ivana Soukupová">
+    <div class="split__img collage">
+      <img class="collage__a" src="img/biz-1.jpg" alt="Ivana ve vlastní praxi">
+      <img class="collage__b" src="img/biz-2.jpg" alt="Studio Ivanina podnikání">
+      <img class="collage__c" src="img/biz-3.jpg" alt="Ivana při vedení lekce">
     </div>
     <div class="split__txt">
-      <p class="eyebrow">Kdo se o vás postará</p>
       <h2>Sama vím, co podnikání obnáší.</h2>
       <p class="ivana__p">Osm let jsem budovala vlastní brand — marketing, klienti, provoz i odpovědnost za výsledek. Všechno bylo na mně. Proto nepotřebuju manuál ke každému úkolu: chápu kontext, pohlídám návaznosti a předám hotový výsledek.</p>
+      <div class="pillars">
+        <div><strong>8 let</strong><span>vlastního podnikání</span></div>
+        <div><strong>100+</strong><span>vlastních klientů</span></div>
+      </div>
     </div>
   </div>
 </section>
@@ -96,7 +100,7 @@
       </div>
     </div>
     <p class="hub__hint">← rozhlédněte se prstem →</p>
-    <p class="note center">Něco z toho umím skvěle, něco dobře — a zbytek se ráda doučím.<br>Případně vám na hovoru na rovinu řeknu, do čeho se pouštět nebudu.</p>
+    <p class="note center">Něco z toho umím skvěle, něco dobře — a zbytek se ráda doučím.<br class="dt">Případně vám na hovoru na rovinu řeknu, do čeho se pouštět nebudu.</p>
   </div>
 </section>
 
@@ -143,10 +147,10 @@
 <section class="sect sect--cta" id="kontakt">
   <div class="wrap wrap--narrow center">
     <p class="eyebrow">První krok je na vás</p>
-    <h2>Kolik hodin vám mám příští měsíc vrátit?</h2>
-    <p class="sub">Rezervujte si se mnou nezávazných 30 minut. I kdybychom si neplácli, odejdete s jasnem, co delegovat jako první.</p>
+    <h2>Kolik hodin svého času chcete získat zpět?</h2>
+    <p class="sub">Rezervujte si se mnou nezávazných 30 minut. I kdybychom si neplácli, odejdete s jasným plánem, co delegovat jako první.</p>
     <a class="btn btn--lg" href="https://calendly.com/tomas-wasniowski/30min" target="_blank" rel="noopener">Rezervovat si se mnou 30minutový hovor →</a>
-    <p class="cta__alt">Radši telefon? <a href="tel:+420603338839">603 338 839</a> — Ivana &nbsp;·&nbsp; <a href="tel:+420774045588">774 045 588</a> — Tomáš</p>
+    <p class="cta__alt"><span class="cta__l">Radši telefon?</span><span class="cta__dot"> </span><span class="cta__l"><a href="tel:+420603338839">603 338 839</a> — Ivana</span><span class="cta__dot"> · </span><span class="cta__l"><a href="tel:+420774045588">774 045 588</a> — Tomáš</span></p>
   </div>
 </section>
 
@@ -163,7 +167,25 @@
 <script>
 (function(){
   var w=document.querySelector('.hubwrap'),h=document.querySelector('.hub');
-  if(w&&h&&w.scrollWidth>w.clientWidth){w.scrollLeft=(h.offsetWidth-w.clientWidth)/2;}
+  if(!w||!h)return;
+  function center(){if(w.scrollWidth>w.clientWidth){w.scrollLeft=(h.offsetWidth-w.clientWidth)/2;}}
+  center();
+  var stopped=false,raf=null;
+  function stop(){stopped=true;if(raf){cancelAnimationFrame(raf);raf=null;}}
+  ['touchstart','pointerdown','wheel'].forEach(function(e){w.addEventListener(e,stop,{passive:true});});
+  if(!('IntersectionObserver' in window))return;
+  var io=new IntersectionObserver(function(en){
+    if(stopped)return;
+    var vis=en[0].isIntersecting;
+    if(vis&&w.scrollWidth>w.clientWidth){
+      if(raf)return;
+      var base=(w.scrollWidth-w.clientWidth)/2,t0=null;
+      var amp=Math.min(130,base);
+      function step(ts){if(stopped)return;if(!t0)t0=ts;var t=(ts-t0)/1000;w.scrollLeft=base+Math.sin(t*.6)*amp;raf=requestAnimationFrame(step);}
+      raf=requestAnimationFrame(step);
+    }else if(raf){cancelAnimationFrame(raf);raf=null;}
+  },{threshold:.35});
+  io.observe(w);
 })();
 </script>
 </body>
